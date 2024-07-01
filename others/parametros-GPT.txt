@@ -1,0 +1,26 @@
+Parâmetros do GPT
+
+Os principais parâmetros têm a seguinte funcionalidade:
+
+- Mode (modo): define como você deseja que o modelo se comporte, e cada um dos modos tem seu próprio contexto e aplicação específicos. Atualmente, temos os modos:
+
+assistants: usado para criar assistentes integrados com aplicações;
+chat: usado para criar interações de conversa com o modelo;
+complete (legado): uma forma de solicitar ao modelo que complete um texto ou código fornecido;
+edit (legado): projetado para auxiliar na edição e revisão de textos.
+
+- Model (modelo): refere-se à arquitetura específica do modelo de linguagem que você deseja usar. No playground da OpenAI, você pode escolher entre vários modelos, cada um com diferentes capacidades de processamento de instruções e tamanhos de tokens. Todos os modelos disponíveis e suas especificações estão descritos na documentação da OpenAI (https://platform.openai.com/docs/models/models).
+
+- Temperature (temperatura): controla a aleatoriedade da saída gerada pelo modelo. Valores mais altos de temperatura (por exemplo, 0,8) produzem saídas mais criativas e imprevisíveis, enquanto valores mais baixos (por exemplo, 0,2) geram saídas mais determinísticas e seguras.
+
+- Maximum length (comprimento máximo): limita o tamanho da resposta gerada pelo modelo. Você pode definir um número máximo de tokens (unidades de texto) que a resposta deve conter. Isso é útil para evitar que a saída seja muito longa e se ajustar às restrições do contexto em que o modelo está sendo usado.
+
+- Stop sequences (sequências de parada): são tokens que indicam ao modelo que ele deve parar de gerar texto. Isso é útil para controlar quando e onde a saída deve terminar.
+
+- Top P: controla a proporção cumulativa das probabilidades dos tokens a serem considerados durante a geração de texto. Isso permite que você controle a diversidade da saída, garantindo que o modelo escolha entre uma seleção mais restrita de tokens com probabilidades mais altas.
+
+- Frequency penalty (penalidade de frequência): controla a frequência com que o modelo repete palavras ou frases semelhantes. Valores mais altos desencorajam o modelo a repetir as mesmas palavras ou estruturas, tornando a saída mais diversificada.
+
+- Presence penalty (penalidade de presença): influencia a diversidade da saída, mas de maneira diferente do frequency penalty. Valores mais altos incentivam o modelo a explorar mais possibilidades e produzir respostas menos óbvias e mais criativas.
+
+Lembre-se de que a combinação desses parâmetros pode afetar significativamente o resultado gerado pelo modelo. Tente sempre experimentar diferentes configurações para atingir o tipo de saída desejada em suas interações com o modelo de linguagem.

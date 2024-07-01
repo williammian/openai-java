@@ -1,0 +1,9 @@
+Melhorando respostas
+
+Na OpenAI existem diversos parâmetros que podemos ajustar para alterar a maneira que a API gera as respostas.
+
+Alterar o parâmetro Frequency penalty pode ajudar a evitar repetições na resposta.
+Esse parâmetro ajusta a penalidade para a repetição de tokens já utilizados na resposta. Valores mais altos desencorajam a repetição, ajudando a gerar respostas mais diversificadas e menos redundantes.
+
+Ajustar o parâmetro Temperature afeta a criatividade das respostas geradas pela API.
+A temperatura é um parâmetro que pode tornar as respostas mais conservadoras ou mais inovadoras, dependendo se o valor é diminuído ou aumentado, respectivamente. Um valor mais alto promove maior variabilidade, enquanto um valor mais baixo tende a produzir respostas mais previsíveis e seguras.

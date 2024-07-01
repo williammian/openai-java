@@ -1,0 +1,11 @@
+Tiers de conta
+
+A OpenAI oferece diferentes níveis de contas para seus usuários, conhecidos como "tiers" ou categorias de conta. Cada tier possui recursos e benefícios específicos, permitindo aos usuários escolher o plano mais adequado às suas necessidades.
+
+O primeiro tier é o Free Trial (avaliação gratuita), que é uma conta gratuita disponível para os usuários experimentarem a plataforma da OpenAI. Nesse nível, os usuários têm acesso limitado aos recursos da API e podem fazer um número restrito de chamadas à API por mês.
+
+O segundo tier é o Pay-as-you-go (Pague conforme o uso), que é um nível de conta em que o usuário paga pelos recursos utilizados. Essa opção é mais flexível e não possui restrições de uso mensal. Os usuários pagam de acordo com o consumo da API, podendo aumentar ou diminuir suas necessidades de uso conforme desejado.
+
+A OpenAI também oferece tiers específicos para empresas e desenvolvedores por meio do Team e Business tiers. Esses tiers oferecem suporte aprimorado, recursos adicionais e personalização de contratos para atender às necessidades.
+
+Para mais detalhes, acesse a página da documentação (https://platform.openai.com/docs/guides/rate-limits/usage-tiers).
