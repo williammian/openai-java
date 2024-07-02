@@ -1,0 +1,10 @@
+https://openai.com/api/pricing/
+
+FAQ
+
+Você pode pensar nos tokens como pedaços de palavras usados ​​para processamento de linguagem natural.
+Para texto em inglês, 1 token tem aproximadamente 4 caracteres ou 0,75 palavras.
+Como ponto de referência, as obras coletadas de Shakespeare têm cerca de 900.000 palavras ou 1,2 milhão de tokens.
+
+https://platform.openai.com/tokenizer
+
