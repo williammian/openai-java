@@ -1,0 +1,7 @@
+IntelliJ
+
+Para configurar a variável de ambiente, clique com o botão direito na classe e escolha a opção Modify Run Configuration….
+Na janela que será aberta, adicione a variável de ambiente no campo Environment variables:
+
+OPENAI_API_KEY=SUA_CHAVE_AQUI
+
