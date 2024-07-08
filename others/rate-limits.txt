@@ -1,0 +1,15 @@
+Rate limits
+
+https://platform.openai.com/docs/guides/rate-limits
+
+Rate limits are measured in five ways:
+
+RPM (requests per minute)
+
+RPD (requests per day)
+
+TPM (tokens per minute)
+
+TPD (tokens per day)
+
+IPM (images per minute)
